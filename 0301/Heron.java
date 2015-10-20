@@ -2,7 +2,6 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Heron{
-    
     static double x(double a, double b, double c){
 	double s = (a+b+c)/2;
 	double i = Math.sqrt(s*(s-a)*(s-b)*(s-c));
